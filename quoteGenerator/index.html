@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Quote Generator</title>
+    <script src="quote.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Random Quote Generator</h1>
+    <div id="quote-box">
+        <p id="quote"></p>
+    </div>
+    <button id="button">Generate New Quote
+        <script>
+            // Get the button element
+            var button = document.getElementById("button");
+          
+            // Add an event listener to the button that calls the generateQuote function when the button is clicked
+            button.addEventListener("click", generateQuote);
+          
+            // Generate the initial quote when the page loads
+            generateQuote();
+          </script>
+        </button>
+    
+  </body>
+</html>
